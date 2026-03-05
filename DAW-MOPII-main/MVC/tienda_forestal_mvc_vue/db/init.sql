@@ -40,5 +40,10 @@ INSERT INTO productos (nombre, tipo, marca, descripcion, precio, stock, imagen) 
 ('Hacha Husqvarna X-Cut X162', 'hacha', 'Husqvarna', 'Hacha profesional de talá-intermedia', 69.00, 28, 'hacha_husqvarna_xcut_x162.jpg'),
 ('Maza Stanley FatMax FME-MFM18XB-1', 'maza', 'Stanley', 'Maza profesional para uso forestal con mango de fibra', 79.90, 20, 'maza_stanley_fatmax_fmemfm18xb1.jpg'),
 ('Casco Forestal Husqvarna Technical XR', 'accesorio', 'Husqvarna', 'Casco técnico con protección para tala intensiva', 99.90, 15, 'casco_husqvarna_technical_xr.jpg'),
-('Kit Limpieza Motosierra Stihl Premium', 'accesorio', 'Stihl', 'Kit de limpieza y mantenimiento para motosierra', 39.00, 30, 'kit_limpieza_motosierra_stihl_premium.jpg');
+('Kit Limpieza Motosierra Stihl Premium', 'accesorio', 'Stihl', 'Kit de limpieza y mantenimiento para motosierra', 39.00, 30, 'kit_limpieza_motosierra_stihl_premium.jpg'),
+('Telescopio Astronómico Profesional', 'ocio', 'Celestron', 'Telescopio de alta precisión para observación nocturna', 245.50, 5, 'telescopio_astronomico.jpg'),
+('Tienda de Campaña Térmica 4 Personas', 'camping', 'Quechua', 'Tienda resistente a climas extremos y alta montaña', 120.00, 12, 'tienda_campaña_termica.jpg'),
+('Dron de Vigilancia Forestal 4K', 'tecnología', 'DJI', 'Dron con cámara térmica para detección de incendios', 899.00, 3, 'dron_forestal.jpg'),
+('Cafetera Express Portátil para Senderismo', 'cocina', 'Wacaco', 'Cafetera manual compacta para café en grano molido', 55.90, 20, 'cafetera_portatil.jpg'),
+('Auriculares con Cancelación de Ruido Pro', 'electrónica', 'Sony', 'Auriculares inalámbricos con tecnología de cancelación de ruido líder en la industria', 299.00, 15, 'auriculares_sony_pro.jpg');
 
