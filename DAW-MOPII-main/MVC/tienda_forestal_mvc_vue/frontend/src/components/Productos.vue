@@ -83,7 +83,7 @@
     </div>
 
     <!-- Información adicional -->
-    <p v-if="totalResultados > 0">
+    <p v-if="totalResultados > 0" class="info-adicional">
       Mostrando página {{ paginaActual }} de {{ totalPaginas }}
       ({{ totalResultados }} productos en total)
     </p>
@@ -231,14 +231,14 @@ cargarProductos()
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 1rem;
+  gap: 3rem;
 }
 
 .card {
-  background: white;
+  background: red;
   padding: 1rem;
   border-radius: 10px;
-  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  box-shadow: 0 0 5px rgba(141, 10, 255, 0.1);
 }
 
 .card img {
@@ -255,13 +255,21 @@ cargarProductos()
 }
 
 .paginacion button {
+  background-color: blue;
+  color:green;
   margin: 0 4px;
   padding: 0.5rem 0.8rem;
 }
 
 button.activo {
-  background-color: #4CAF50;
-  color: white;
+  background-color: #ffb732;
+  color: red;
   font-weight: bold;
 }
+
+.info-adicional {
+  background-color: #f0f4f8;   /* Un azul grisáceo muy claro */
+  color: #546e7a;              /* Color de texto pizarra suave */
+}
+
 </style>
